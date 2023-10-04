@@ -1,4 +1,4 @@
-<h2>Description</h2>
+<h2>C++</h2>
 Simple C++ programs
 
 <!--
