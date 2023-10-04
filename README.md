@@ -1,11 +1,5 @@
 <h2>Description</h2>
-Project consists of a simple C++ program that calculates the amount owed from customers at tables in a restaurant.
-
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>C++</b> 
-
+Simple C++ programs
 
 <!--
  ```diff
