@@ -1,0 +1,29 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+  double rate;
+  double intrest;
+  double ratepercent;
+  double principal;
+  double xCompounded;
+  double amount;
+
+  cout << "Enter intrest rate:" ;
+  cin >> rate;
+  cout << "Enter principal:";
+  cin >> principal;
+  cout << "Enter Times compouded:";
+  ratepercent=rate/100;
+  cin >> xCompounded;
+  intrest= principal*pow((1+ratepercent/xCompounded),(xCompounded));//intrest formula
+  cout << "Intrest Rate         " << rate << "%" << endl;
+  cout << "Times Compounded     " << xCompounded << endl;
+  cout << "Principal           $" << principal << endl;
+  cout << "Intrest             $" << intrest-principal  << endl;
+  cout << "Amount in Savings   $" << amount+intrest  << endl;
